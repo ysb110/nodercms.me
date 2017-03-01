@@ -1,0 +1,20 @@
+{
+  "name": "nodeme",
+  "version": "1.0.0",
+  "description": "'ycq's cms",
+  "main": "index.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "ycq",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.5",
+    "express": "^4.14.1",
+    "express-hbs": "^1.0.4",
+    "log4js": "^1.1.0",
+    "moment": "^2.17.1",
+    "require-all": "^2.2.0",
+    "underscore": "^1.8.3"
+  }
+}

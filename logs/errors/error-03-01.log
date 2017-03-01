@@ -1,0 +1,14 @@
+[2017-03-01 21:35:07.565] [ERROR] console - Error: [layout-default.hbs] Parse error on line 12:
+...ad><body>	{{body}}}	<br>    <br>
+---------------------^
+Expecting 'CLOSE', 'OPEN_SEXPR', 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'CLOSE_UNESCAPED'
+    at Object.parseError (F:\cms\nodeme\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Object.parse (F:\cms\nodeme\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at HandlebarsEnvironment.parse (F:\cms\nodeme\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:43)
+    at compileInput (F:\cms\nodeme\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:514:19)
+    at ret (F:\cms\nodeme\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:523:18)
+    at renderTemplate (F:\cms\nodeme\node_modules\express-hbs\lib\hbs.js:483:13)
+    at _stackRenderer (F:\cms\nodeme\node_modules\express-hbs\lib\hbs.js:524:9)
+    at F:\cms\nodeme\node_modules\express-hbs\lib\hbs.js:503:7
+    at Function.Waiter.done (F:\cms\nodeme\node_modules\express-hbs\lib\async.js:68:12)
+    at renderTemplate (F:\cms\nodeme\node_modules\express-hbs\lib\hbs.js:494:11)
